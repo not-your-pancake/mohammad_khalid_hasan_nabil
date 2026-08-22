@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Mohammad Khalid Hasan Nabil </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="management_3174200.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Ensure smooth scrolling for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Fixed navbar styling */
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: background-color 0.3s ease;
+    }
+    /* Mobile menu hidden by default */
+    #mobile-menu {
+      display: none;
+    }
+    /* Custom hover effect for project cards */
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    }
+    /* Social icons styling */
+    .social-icon {
+      transition: transform 0.3s ease;
+    }
+    .social-icon:hover {
+      transform: scale(1.1);
+    }
+    
+  </style>
+</head>
+<body class="bg-gray-100 text-justify font-sans">
+  <!-- Fixed Navigation Bar -->
+  <nav class="navbar bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <span class="text-xl font-bold text-gray-800">Mohammad Khalid Hasan Nabil </span>
+        </div>
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center space-x-4">
+          <a href="#about" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+          <a href="#research-interests" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Research-interests</a>
+          <a href="#work-journey" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Work Journey</a>
+          <a href="#research-experience" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Research Experience</a>
+          <!-- <a href="#certificates" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Certificates</a> -->
+          <a href="#extracurricular" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Extracurricular</a>
+          <a href="#connect" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Connect</a>
+        </div>
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden flex items-center">
+          <button id="mobile-menu-btn" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden bg-white shadow-md">
+      <a href="#about" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">About</a>
+      <a href="#research-interests" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Research-interests</a>
+      <a href="#work-journey" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Work Journey</a>
+      <a href="#research-experience" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Research Experience & Publications</a>
+      <!-- <a href="#certificates" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Certificates</a> -->
+      <a href="#extracurricular" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Extracurricular</a>
+      <a href="#connect" class="block px-4 py-2 text-gray-600 hover:bg-gray-100">Connect</a>
+    </div>
+  </nav>
+
+  
+  <!-- Hero Section -->
+  <section class="pt-20 pb-12 bg-gray-800 text-white text-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 ">Welcome</h1>
+      <p class="text-lg md:text-xl mb-6">
+        Student
+        <br> BSc in Information and Communication Engineering, BUP
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="#research-experience" 
+        class="inline-block bg-blue-600 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-700 hover:scale-105 transition-all duration-300 transform">
+        View My Research Experience</a>
+        <a href="Khalid_CV_final.pdf" target="_blank" 
+        class="inline-block bg-green-600 text-white px-6 py-3 rounded-md font-medium hover:bg-green-700 hover:scale-105 transition-all duration-300 transform">View My CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">About Me</h2>
+      <div class="flex flex-col md:flex-row items-center">
+        <img src="pic.jpeg" alt="my-pic" class="w-80 h-100 rounded-lg mb-4 md:mb-0 md:mr-6">
+        <p class="text-justify text-gray-600 text-lg ">
+            <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px; background-color: #f9f9f9; border-radius: 8px; max-width: 800px; margin: 0 auto;">
+                Mohammad Khalid Hasan Nabil is an undergraduate engineering student at Bangladesh University of Professionals (BUP), studying Information and Communication Engineering. His research sits where machine learning meets physical and scientific systems. <br>
+
+                <br>His main focus is scientific and physics-informed machine learning building predictive and surrogate models that solve problems which are hard to capture with equations alone; publishing his <b>first journal in 3rd year in MDPI modeling</b>. He uses ensemble learning and deep learning, and has applied these across several areas: seasonal climate projection, material strength prediction in additive manufacturing, and signal processing.
+
+                <br><br>He is currently active in his university's Communication Laboratory, working on applied deep learning for digital modulation and signal processing, including a neural-network demodulator built and tested on real hardware. His undergraduate thesis applies deep learning to medical image processing.
+                
+                <br><br>Guided by <b>Dr. Mohammad Ali Moni</b> and <b>Dr. Ivan Grgić</b>, he is preparing PhD applications in scientific and physics-informed machine learning..
+            </div>
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- Research Interests Section -->
+<section id="research-interests" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Research Interests</h2>
+    <div class="bg-gray-50 p-6 rounded-xl shadow-lg">
+      <ul class="space-y-4 text-gray-700 text-left leading-relaxed text-lg">
+        <li>•<b> Scientific and physics-informed machine learning</b></li>
+        <li>•<b> Surrogate modeling for physical and engineering systems</b></li>
+        <li>•<b> Ensemble learning and deep learning</b></li>
+        <li>•<b> Deep learning for signal processing and digital modulation</b></li>
+        <li>•<b> Applied ML across climate projection, additive manufacturing, and medical image analysis</b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">Education</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- BSc Card -->
+      <article class="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="p-6 relative">
+          <div class="image-text-wrapper relative mb-6">
+            <img src="bsc-khalid.jpeg" alt="BSc Certificate" 
+            class="float-left w-32 h-48 object-cover rounded-lg shadow-md mr-4 mb-4 md:mb-0" 
+            style="width: 128px; height: 192px; max-width: 128px; height: auto;">
+            <div class="clear-left md:clear-left">
+              <br>
+              <h3 class="text-xl font-semibold text-left text-gray-800 mb-3 clear-both">BSc in Information and Communication Engineering</h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                <span class="font-medium text-gray-900">Result:</span> 3.38/4.00<br>
+                <span class="font-medium text-gray-900">Issued:</span> expected 2028<br>
+                <a href="https://bup.edu.bd/department_home/3" 
+                class="text-indigo-600 hover:text-indigo-800 font-medium transition-colors" 
+                target="_blank" rel="noopener noreferrer">
+                  Bangladesh University of Professionals (BUP)
+                </a>
+              </p>
+            </div>
+          </div>
+          <a href="bsc-khalid.jpeg" 
+          class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors group-hover:underline" 
+          target="_blank" rel="noopener noreferrer">
+            View Certificate <span class="ml-1">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- HSC Card -->
+      <article class="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="p-6 relative">
+          <div class="image-text-wrapper relative mb-6">
+            <img src="hsc-khalid.jpeg" alt="HSC Certificate" 
+            class="float-left w-32 h-45 object-cover rounded-lg shadow-md mr-4 mb-4 md:mb-0" 
+            style="width: 128px; height: 180px; max-width: 128px;">
+            <div class="clear-left md:clear-left">
+              <br>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3 clear-both">Dhaka Residential Model College</h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                <span class="font-medium text-gray-900">Result:</span> 5.00/5.00<br>
+                <span class="font-medium text-gray-900">Issued:</span> December, 2021<br>
+                <a href="https://www.drmc.edu.bd/Default.aspx" 
+                class="text-indigo-600 hover:text-indigo-800 font-medium transition-colors" 
+                target="_blank" rel="noopener noreferrer">
+                  Dhaka Residential Model College
+                </a>
+              </p>
+            </div>
+          </div>
+          <a href="hsc-khalid.jpeg" 
+          class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors group-hover:underline" 
+          target="_blank" rel="noopener noreferrer">
+            View Certificate <span class="ml-1">→</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- SSC Card -->
+      <article class="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="p-6 relative">
+          <div class="image-text-wrapper relative mb-6">
+            <img src="ssc-khalid.jpeg" alt="SSC Certificate" 
+            class="float-left w-32 h-45 object-cover rounded-lg shadow-md mr-4 mb-4 md:mb-0" 
+            style="width: 128px; height: 180px; max-width: 128px;">
+            <div class="clear-left md:clear-left">
+              <br>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3 clear-both">Secondary School Certificate</h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                <span class="font-medium text-gray-900">Result:</span> 5.00/5.00<br>
+                <span class="font-medium text-gray-900">Issued:</span> July, 2019<br>
+                <a href="https://mgsc.edu.bd/" 
+                class="text-indigo-600 hover:text-indigo-800 font-medium transition-colors" 
+                target="_blank" rel="noopener noreferrer">
+                  Savar Cantonment Morning Glory School & College
+                </a>
+              </p>
+            </div>
+          </div>
+          <a href="ssc-khalid.jpeg" 
+          class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors group-hover:underline" 
+          target="_blank" rel="noopener noreferrer">
+            View Certificate <span class="ml-1">→</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .clear-left {
+    clear: both;
+  }
+  @media (max-width: 768px) {
+    .float-left {
+      float: none !important;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    .clear-left {
+      clear: none;
+    }
+  }
+</style>
+```
+
+<style>
+  .clear-left {
+    clear: both;
+  }
+  @media (max-width: 768px) {
+    .float-left {
+      float: none !important;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    .clear-left {
+      clear: none;
+    }
+  }
+</style>
+
+<!-- Photo Work Section with Text Wrapping -->
+<section id="work-journey" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">My Work Journey</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  
+        <!-- Work Item 1 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-1.png" alt="Physics-Guided Machine Learning Surrogates for Bird Strike Analysis on Rotating Jet Engine Blades Through a Comparative Study of Lagrangian and SPH Simulations" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-2 py-1 rounded-full mb-3">
+                April 2025 - published
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                My research started with one idea: use machine learning to model physical systems that are hard to solve with equations alone. 
+                My first published work applied physics-guided ML to bird-strike analysis 
+                on jet-engine blades, comparing Lagrangian and SPH methods, in collaboration with <b>Dr. Ivan Grgić, Mechanical Engineering Faculty in Slavonski Brod</b>. 
+                That project set the direction for everything after it and getting my first <b>Journal published in MDPI Modelling</b>.
+              </p>
+            </div>
+          </div>
+          <a href="work-1.png" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View Full Image →</a>
+        </article>
+
+<!-- Work Item 2 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-2.png" alt="" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-green-100 text-green-800 text-sm font-medium px-2 py-1 rounded-full mb-3">
+                under Review
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                From there I moved into environmental forecasting.Under the supervision of <b>Atika Akhter, Institute of Biological and Medical Imaging, Germany</b> and <b>Dr. Ali Moni, 
+                Faculty of Health and Behavioural Sciences, The University of Queensland</b> I built a Fourier-guided ML framework to predict 
+                <b>8 Temperature Correlated Conditions (TCC)</b> conditions across all 64 districts of Bangladesh, combining signal-based features with ensemble learning to capture 
+                seasonal patterns(currently under review). This grew into a series of first-author papers, including one accepted at <b>IOCFC 2026</b>.
+              </p>
+            </div>
+          </div>
+          <a href="https://tcc-64-districts-mohammad-khalid.streamlit.app/" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View Full DashBoard →</a>
+        </article>
+
+<!-- Work Item 3 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-3.png" alt="failure" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-red-500 text-white text-sm font-medium px-2 py-1 rounded-full mb-3">
+                My Failure
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                I then carried the same modeling approach into additive manufacturing building a model to predict the ultimate 
+                tensile strength of 3D-printed parts from print parameters with <b>Jure Marijić</b> under the supervision of <b>Dr. Ivan Grgić</b> 
+                but couldn't execute the work after working for 7 months in it failing to overcome the limited dataset, but later contributed in 
+                data analysis and manuscript drafting to an another experimental work on infill design accepted at <b>PLIN 2026, in Croatia.</b>
+              </p>
+            </div>
+          </div>
+          <a href="https://github.com/not-your-pancake/BUP-ML-Portfolio/tree/main/Research/Dog%20bone%20Mure" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View My Work in GitHub→</a>
+        </article>
+
+
+        <!-- Work Item 4 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-4.png" alt="failure" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-yellow-500 text-white text-sm font-medium px-2 py-1 rounded-full mb-3">
+                In Progress
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                Most recently, in my university's Communication Laboratory, I have been building a <b>Physics Guided Neural Network (PGNN)</b> demodulator for digital 
+                modulation schemes, using signal data I collect and process by hand under the supervision of 
+                <b>Md Maynul Islam, Faculty of Science & Technology in BUP</b>. 
+              </p>
+            </div>
+          </div>
+          <a href="work-4.png" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View Full Photo →</a>
+        </article>
+
+         <!-- Work Item 5 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-5.png" alt="thesis" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-blue-400 text-white text-sm font-medium px-2 py-1 rounded-full mb-3">
+                On Going
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                I am now extending the same deep-learning tools and experimenting with Knowledge Distillation to a new domain in my undergraduate 
+                <b>thesis: medical image processing</b> under the supervision of <b>Md Appel Mahmud Pranto, Faculty of Science & Technology in BUP</b>. 
+              </p>
+            </div>
+          </div>
+          <a href="work-5.png" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View Full Photo →</a>
+        </article>
+
+<!-- Work Item 6 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="image-text-wrapper relative"> <!-- Wrapper for float clearing -->
+            <img src="work-6.png" alt="thesis" 
+            class="float-left md:float-left w-full md:w-48 md:h-48 object-cover rounded-lg shadow-md mr-4 md:mb-4 max-w-none" 
+            style="width: 100%; height: auto; max-width: 300px;">
+            <div class="md:clear-left"> <!-- Clears float on medium+ screens -->
+              <span class="inline-block bg-red-100 text-black text-sm font-medium px-2 py-1 rounded-full mb-3">
+                Vertical Flight Society (VFS) Annual Student Design Competition — Team Lead (2024–2025)
+              </span>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3"></h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+                Under the supervision of <b>Dr. Nasir Uddin, Faculty of Science & Technology in BUP</b>, 
+                I led a 7-member team — five aeronautical engineering students and two from ICT in the <b>42nd 
+                VFS Annual Student Design Competition</b>, an international VTOL aircraft design challenge. 
+                As team lead, my work was research and problem-solving: I broke down the problem statement, 
+                set the technical concept, drafted the full manuscript, and assigned tasks to our simulation 
+                and CAD specialists.<br>
+
+              The challenge required a hydrogen-powered VTOL design. I spent the first days turning the 
+              requirements into a structured map, then proposed our core concept a hybrid drawing on the 
+              <b>Guimbal Cabri G2 and Robinson R22</b>. My main technical contribution was the propulsion research: 
+              after deep study of fuel-cell systems, I selected and justified a <b>PEMFC powertrain based on the 
+              Toyota Mirai's fuel-cell architecture for integration into our aircraft</b>. <br>
+
+              <br>This project is where I taught myself to read research papers properly and learned to carry 
+              a problem from a blank statement to a complete technical submission while coordinating an 
+              interdisciplinary team. Full documentation is on GitHub.<br>
+              </p>
+            </div>
+          </div>
+          <a href="Final Proposal Of The Team Hawk.pdf" class="text-blue-600 hover:text-blue-800 font-medium transition-colors block mt-4" 
+          target="_blank" rel="noopener noreferrer">View Full Proposal →</a>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Research Experience Section -->
+  <section id="research-experience" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Journals</h2>
+      <div class="space-y-8">
+        
+        <!-- journal 1 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+            <h3 class="text-xl text-left text-gray-800 mb-2 lg:mr-2"><b>Title: Physics-Guided Machine Learning Surrogates for Bird Strike Analysis on Rotating Jet Engine Blades Through 
+              a Comparative Study of Lagrangian and SPH Simulations</b></h3>
+            <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full lg:ml-1 ">
+              <b>April,2026</b>
+            </span>
+          </div>
+          <p class="text-gray-600 text-left mb-2 italic"><b>Authors: Mohammad Khalid Hasan Nabil, Jubayer Ahmed Sajid, Ivan Grgić, Jure Marijić, Saiaf Bin Rayhan</b></p>
+          <ul class="space-y-3 text-gray-700 leading-relaxed">
+            <li>• <b>Publication:</b><a href="https://www.mdpi.com/2673-3951/7/3/80" 
+              class="underline italic text-blue-600 hover:text-blue-800 font-medium transition-colors" 
+              target="_blank" rel="noopener noreferrer"> Modelling (MDPI), Vol. 7, Issue 3, p. 80</a>, April 2026. 
+            </li>
+            <li>• <b>Keywords: </b>bird strike; surrogate modeling; smoothed particle hydrodynamics; Lagrangian simulation; Random Forest; fan blade; machine learning; finite element analysis </li>
+            
+          </ul>
+        </article>
+
+        <!-- journal 2 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+            <h3 class="text-xl text-left text-gray-800 mb-2 lg:mr-2"><b>Title: Projections of Heat-Stress Conditions Across Bangladesh Using Explainable Machine Learning and Climate Trend Integration</b></h3>
+            <span class="inline-block bg-yellow-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full lg:ml-3">
+              <b>UnderReview</b>
+            </span>
+          </div>
+          <p class="text-gray-600 text-left mb-4 italic"><b>Authors: Mohammad Khalid Hasan Nabil, Tahia Parsha, Musayeb Hossain Usama, Atika Akter, Ivan Grgić, Mohammad Ali Moni</b></p>
+          <ul class="space-y-3 text-gray-700 leading-relaxed">
+            <li>• <b>Publication:</b><a href="https://www.mdpi.com/2673-4591/7/3/80" 
+              class="italic hover:text-blue-800 font-medium transition-colors" 
+              target="_blank" rel="noopener noreferrer"> Climatic Change(Springer Nature)</a>. 
+            </li>
+            <li>• <b>Keywords: </b>Temperature-Correlated Conditions, public health, Bangladesh, seasonal projection, Applied Machine Learning </li>
+          </ul>
+        </article>
+
+        
+          <section id="research-experience" class="py-16 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Conference</h2>
+        <div class="space-y-8">
+        
+        <!-- Conference Paper 1 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+            <h3 class="text-xl text-left text-gray-800 mb-2 lg:mr-2"><b>Title: A Fourier-Guided Machine Learning Framework for District-Level Dew Point Comfort Forecasting Across 64 districts of Bangladesh (2025–2027)</b></h3>
+            <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full lg:ml-3">
+              <b>Aug,2026</b>
+            </span>
+          </div>
+          <p class="text-gray-600 text-left mb-4 italic"><b>Authors: Mohammad Khalid Hasan Nabil, Ivan Grgić</b></p>
+          <ul class="space-y-3 text-gray-700 leading-relaxed">
+            <li>• <b>Publication:</b><a href="https://sciforum.net/profile/dashboard/submissions/IOCFC2026/11510542bd9b0b3d5c0c79477918cd35" 
+              class="underline text-blue-600 hover:text-blue-800 font-medium transition-colors" 
+              target="_blank" rel="noopener noreferrer"> will be updated shortly</a>, August 2026. </li>
+            <li>• <b>Keywords: </b>Dew Point Comfort, Environmental forecasting, Machine Learning, Fourier Transformation, Public Health, Time Series Analysis, Bangladesh </li>
+          </ul>
+        </article>
+
+          <!-- Conference Paper 2 -->
+        <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+            <h3 class="text-xl text-left text-gray-800 mb-2 lg:mr-2"><b>Title: Analysis of the Influence of Infill Density and Infill Geometry on the Tensile Strength of PLA Structures Filled with Photopolymer Resin</b></h3>
+            <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
+              <b>Aug,2026</b>
+            </span>
+          </div>
+          <p class="text-gray-600 text-left mb-4 italic"><b>Authors: L. Brčić, I. Grgić, J. Marijić, M. Karakašić, M. K. H. Nabil</b></p>
+          <ul class="space-y-3 text-gray-700 leading-relaxed">
+            <li>• <b>Publication:</b><a href="https://sciforum.net/profile/dashboard/submissions/IOCFC2026/11510542bd9b0b3d5c0c79477918cd35" 
+              class="underline text-blue-600 hover:text-blue-800 font-medium transition-colors" 
+              target="_blank" rel="noopener noreferrer"> will be updated shortly</a>, August 2026. </li>
+            <li>• <b>Keywords: </b>FDM Technology; PLA; Photopolymer Resin; Tensile Strength; Infill Structure.</li>
+          </ul>
+        </article>
+
+
+    </div>
+  </section>
+
+<!-- Certificates Section -->
+<!-- <section id="certificates" class="py-16 bg-gray-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-4xl font-bold text-gray-800 mb-8 text-center">Certificates</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+       -->
+      <!-- Certificate 1 -->
+      <!-- <article class="group bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <div class="p-6 relative">
+          <div class="image-text-wrapper relative mb-6">
+            <img src="cert-1.jpeg" alt="Short Foundation Training Certificate" 
+            class="float-left w-32 h-45 object-cover rounded-lg shadow-md mr-4 mb-4 md:mb-0" style="width: 128px; height: 180px; max-width: 128px;">
+            <div class="clear-left md:clear-left">
+              <br>
+              <h3 class="text-xl text-left font-semibold text-gray-800 mb-3 clear-both">Short Foundation Training(Technical)</h3>
+              <p class="text-gray-600 leading-relaxed text-sm md:text-base mb-4">
+                Assistant Manager
+                <br>
+                Titas Gas Transmission and Distribution PLC, July 05,2025
+              </p>
+            </div>
+          </div>
+          <a href="cert-1.jpeg" 
+          class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors group-hover:underline" 
+          target="_blank" rel="noopener noreferrer">
+            View Certificate <span class="ml-1">→</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section> -->
+
+<style>
+  .clear-left {
+    clear: both;
+  }
+  @media (max-width: 768px) {
+    .float-left {
+      float: none !important;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    .clear-left {
+      clear: none;
+    }
+  }
+</style>
+
+<!-- Extracurricular Section -->
+<section id="extracurricular" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Extracurricular</h2>
+    <div class="space-y-8">
+      
+      <!-- Executive Role -->
+      <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 lg:mb-0"><b>42nd Annual Student Design Competition of Vertical Flight Society(VFS)</b></h3>
+          <span class="inline-block bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
+            <b>2024-2025</b>
+          </span>
+        </div>
+        <p class="text-gray-600 mb-4 italic">
+          <b>Student Design Competition(Best New Entrant)</b>
+        </p>
+        <ul class="space-y-3 text-gray-700 leading-relaxed">
+          <li>• Served as Team Leader, collaborating with Aeronautical Engineering students.</li>
+          <li>• Conceptualized on integrating PEMFC (Proton Exchange Membrane Fuel Cell) systems from the Toyota Mirai.</li>
+          <li>• Developed a hybridization concept for the Cabri G2 and Robinson R22 helicopters. </li>
+          <li>• Led the primary research and technical writing phases. </li>
+        </ul>
+<br>
+        <a href="https://github.com/not-your-pancake/the_hawk_42nd_VFS_SDC" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors" target="_blank" rel="noopener noreferrer">
+          Check out my GitRepo for the full documentation →</a>
+      </article>
+
+      <!-- Sports Achievements -->
+      <article class="bg-gray-50 p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 lg:mb-0"><b>Sports: Cricket and Badminton</b></h3>
+        </div>
+        <ul class="space-y-3 text-gray-700 text-left leading-relaxed">
+          <li>• <b>July 2018</b> - <b>Champion on Inter-Hall Badminton Tournament</b>.</li>
+          <li>• <b>December 2018</b> - <b>Inter-Department Cricket Champion</b>.</li>
+          <li>• <b>August 2023</b> - <b>Champion of Bangabandhu Memorial Cricket League, Savar</b>.</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+  <!-- Connect Section with Social Icons -->
+  <section id="connect" class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Connect With Me</h2>
+      <div class="flex justify-center space-x-8 md:space-x-12">
+
+        <a href="nabilhasan01541work@gmail.com" class="social-icon">
+          <svg class="w-16 h-16 text-blue-600 hover:text-blue-800" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+          </svg>
+        </a>
+
+        <!-- <a href="https://x.com/your-profile" target="_blank" class="social-icon">
+          <svg class="w-16 h-16 text-blue-600 hover:text-blue-800" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+        </a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p>&copy; 2025 Mohammad khalid. All rights reserved.</p>
+      <p>Mobile : +880180804945</p>
+      <p>Email : nabilhasan01541work@gmail.com</p>
+      <br>
+    <div class="text-center text-gray-400 mt-2">
+      <p>
+        © Website created by <a href="https://www.linkedin.com/in/md-khalid-hasan-nabil-01541mon1/" class="text-blue-300 hover:underline" >Khalid Hasan</a>
+      </p>
+    </div>   
+    
+  </footer>
+
+  <!-- JavaScript for Mobile Menu Toggle -->
+  <script>
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+    });
+
+    // Close mobile menu when a link is clicked
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.style.display = 'none';
+      });
+    });
+  </script>
+</body>
+
+</html>
+
