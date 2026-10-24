@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PhD Roadmap 2026–2028</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 12mm 14mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #111827;
+      background: #ffffff;
+      line-height: 1.35;
+      -webkit-font-smoothing: antialiased;
+    }
+    .sheet {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 98vh;
+    }
+    header {
+      border-bottom: 2px solid #111827;
+      padding-bottom: 10px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    .meta-bar {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      color: #374151;
+    }
+    .meta-bar span strong {
+      color: #000000;
+    }
+    .phases-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .phase-card {
+      border: 1.5px solid #1f2937;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #ffffff;
+    }
+    .phase-header {
+      /* background: rgb(117, 117, 221); */
+      border-bottom: 1.5px solid #1f2937;
+      color: black;
+      padding: 6px 10px;
+      font-size: 11.5px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .phase-body {
+      padding: 10px;
+      flex-grow: 1;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      font-size: 12px;
+      margin-bottom: 6px;
+      position: relative;
+      padding-left: 14px;
+      color: #1f2937;
+    }
+    li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+      color: #4b5563;
+    }
+    .sub-item {
+      padding-left: 24px;
+      font-size: 11px;
+      color: #4b5563;
+      margin-top: -3px;
+      margin-bottom: 5px;
+    }
+    .exit-box {
+      margin: 8px 10px 10px 10px;
+      padding: 6px 8px;
+      background: #f3f4f6;
+      border-left: 3px solid #111827;
+      font-size: 11px;
+      font-weight: 700;
+      color: #111827;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    .exit-box span {
+      font-weight: 500;
+      text-transform: none;
+      color: #1f2937;
+      display: block;
+      margin-top: 2px;
+    }
+    footer {
+      border: 2px solid #000000;
+      background: #f9fafb;
+      padding: 10px 14px;
+      text-align: center;
+    }
+    .rule-title {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #dc2626;
+    }
+    .rule-text {
+      font-size: 14px;
+      font-weight: 700;
+      color: #000000;
+      margin-top: 2px;
+      letter-spacing: -0.01em;
+    }
+
+    @media print {
+      body {
+        background: transparent;
+      }
+      .sheet {
+        max-width: 100%;
+        min-height: auto;
+        padding: 0;
+      }
+      .phase-card {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <div>
+      <header>
+        <h1>ROADMAP: funded PhD (fallback MSc), start Fall 2028</h1>
+        <div class="meta-bar">
+          <span><strong>Thread:</strong> reliable ML for noisy real-world signals</span>
+          <span><strong>Time:</strong> ~11 hrs/wk (1h/day + 2h Fri/Sat)</span>
+        </div>
+      </header>
+
+      <div class="phases-grid">
+        <!-- PHASE 1 -->
+        <div class="phase-card">
+          <div class="phase-header">
+            <span>PHASE 1 | Nov–Dec 2026</span>
+            <span>FOUNDATIONS</span>
+          </div>
+          <div class="phase-body">
+            <ul>
+              <li>Update portfolio: papers out + one-line thread statement</li>
+              <li>Math pass (1-2 wks): linear algebra, vector calculus basics</li>
+              <li>Karpathy micrograd: backprop by hand, once</li>
+              <li>PyTorch official tutorials; write your own training loop</li>
+              <li>Weekly check: explain the code aloud with no AI</li>
+            </ul>
+          </div>
+          <div class="exit-box">
+            EXIT:
+            <span>A 1D CNN on PTB-XL that you wrote and can explain</span>
+          </div>
+        </div>
+
+        <!-- PHASE 2 -->
+        <div class="phase-card">
+          <div class="phase-header">
+            <span>PHASE 2 | Jan–Jun 2027</span>
+            <span>PROOF</span>
+          </div>
+          <div class="phase-body">
+            <ul>
+              <li>Thesis experiments (teacher/student, noise tests, ECE)</li>
+              <li>Rebuild your demodulator pipeline in PyTorch unaided; keep a "stuck list"</li>
+              <li>Get SDR access via MIST</li>
+              <li>Clean GitHub: README + runnable code</li>
+              <li>Basic stats: hypothesis tests, calibration</li>
+            </ul>
+          </div>
+          <div class="exit-box">
+            EXIT:
+            <span>You can defend every paper and the thesis with zero AI</span>
+          </div>
+        </div>
+
+        <!-- PHASE 3 -->
+        <div class="phase-card">
+          <div class="phase-header">
+            <span>PHASE 3 | Jun–Sep 2027</span>
+            <span>TARGETING</span>
+          </div>
+          <div class="phase-body">
+            <ul>
+              <li>PI sheet: 15 names (5 reach / 5 match / 5 safe)</li>
+              <li class="sub-item">columns: lab, 2 recent papers, one honest connection</li>
+              <li>Draft research statement around ONE identity</li>
+              <li>Book IELTS/TOEFL; GRE only if a target requires it</li>
+              <li>Ask Dr. Grgic + one BUP professor for letters early</li>
+            </ul>
+          </div>
+          <div class="exit-box">
+            EXIT:
+            <span>Shortlist locked</span>
+          </div>
+        </div>
+
+        <!-- PHASE 4 -->
+        <div class="phase-card">
+          <div class="phase-header">
+            <span>PHASE 4 | Oct 2027–Jan 2028</span>
+            <span>APPLY</span>
+          </div>
+          <div class="phase-body">
+            <ul>
+              <li>Portal applications first (check each deadline)</li>
+              <li>PI emails: (1) their paper -> your link, (2) a specific contribution, (3) follow-up with new value after 2 weeks</li>
+              <li>Interview prep: defend your work cold</li>
+            </ul>
+          </div>
+          <div class="exit-box">
+            EXIT:
+            <span>Ready for admission & funding interviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="rule-title">RULE</div>
+      <div class="rule-text">If you can't explain it, you can't cite it.</div>
+    </footer>
+  </div>
+</body>
+</html>
